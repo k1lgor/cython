@@ -14,7 +14,7 @@ def fib_cython(n):
 
 
 def benchmark():
-    numbers = [10, 20, 30, 35, 40, 45, 50, 55]
+    numbers = [10, 20, 30, 35, 40]
 
     with open("benchmark_output.txt", "w") as f:
         for n in numbers:
