@@ -34,4 +34,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "auto-generated: 🤖 add benchmark output"
-          file_pattern: "benchmark_output.txt"
+          file_pattern: "fibonacci_output.txt"
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Benchmark output
+          path: ./fibonacci_output.txt
