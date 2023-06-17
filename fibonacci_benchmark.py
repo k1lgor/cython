@@ -16,7 +16,7 @@ def fib_cython(n):
 def benchmark():
     numbers = [10, 20, 30, 35, 40]
 
-    with open("benchmark_output.txt", "w") as f:
+    with open("fibonacci_output.txt", "w") as f:
         for n in numbers:
             f.write(f"n = {n}\n")
 
