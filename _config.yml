@@ -23,8 +23,10 @@ author: Plamen Ivanov
 email: paco.iwanow@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The benchmark measures the performance difference between the Python and Cython implementations.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://k1lgor.github.io/cython/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /cython # the subpath of your site, e.g. /blog
+url: "k1lgor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: https://github.com/k1lgor/cython
+website: https://plamens-portfolio.vercel.app/
 github_username:  k1lgor
 linkedin_username: plamen-i-ivanov
 
@@ -32,11 +34,6 @@ linkedin_username: plamen-i-ivanov
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-titles-from-headings
-titles_from_headings:
-  enabled: true
-  strip_title: true
-  collections: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
