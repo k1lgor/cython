@@ -23,17 +23,17 @@ author: Plamen Ivanov
 email: paco.iwanow@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The benchmark measures the performance difference between the Python and Cython implementations.
-baseurl: /cython # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "k1lgor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: https://github.com/k1lgor/cython
-website: https://plamens-portfolio.vercel.app/
 github_username:  k1lgor
 linkedin_username: plamen-i-ivanov
 
 # Build settings
 theme: minima
+markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-gist
 
 # Exclude from processing.
 # The following items will not be processed, by default.
