@@ -1,20 +1,20 @@
 n = 10
-Python: 0.000015 seconds
-Cython: 0.000013 seconds
-Cython is 11.03% faster than Python
+Python: 0.000017 seconds
+Cython: 0.000015 seconds
+Cython is 11.83% faster than Python
 n = 20
-Python: 0.001319 seconds
-Cython: 0.001313 seconds
-Cython is 0.47% faster than Python
+Python: 0.001529 seconds
+Cython: 0.001529 seconds
+Cython is 0.04% faster than Python
 n = 30
-Python: 0.166473 seconds
-Cython: 0.165235 seconds
-Cython is 0.74% faster than Python
+Python: 0.191281 seconds
+Cython: 0.189169 seconds
+Cython is 1.10% faster than Python
 n = 35
-Python: 1.824606 seconds
-Cython: 1.810543 seconds
-Cython is 0.77% faster than Python
-n = 40
-Python: 20.048028 seconds
-Cython: 19.933122 seconds
+Python: 2.098842 seconds
+Cython: 2.086889 seconds
 Cython is 0.57% faster than Python
+n = 40
+Python: 23.229508 seconds
+Cython: 23.095616 seconds
+Cython is 0.58% faster than Python
