@@ -1,0 +1,12 @@
+n = 10
+Python: 0.000015 seconds
+Cython: 0.000012 seconds
+Cython is 16.11% faster than Python
+n = 20
+Python: 0.001324 seconds
+Cython: 0.001356 seconds
+Python is 2.40% faster than Cython
+n = 30
+Python: 0.167405 seconds
+Cython: 0.165582 seconds
+Cython is 1.09% faster than Python
