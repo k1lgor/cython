@@ -108,6 +108,7 @@ To run the benchmark, follow these steps:
 4. Open a terminal and run the following command to execute the benchmark:
 
    ```bash
+   cd benchmark
    python <filename>.py
    ```
 
