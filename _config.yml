@@ -59,7 +59,7 @@ minima:
     - platform: devto
       user_url: "https://dev.to/k1lgor"
     - platform: github
-      user_url: "https://github.com/k1lgor"
+      user_url: "https://github.com/k1lgor/cython"
     - platform: linkedin
       user_url: "https://www.linkedin.com/in/plamen-i-ivanov/"
     - platform: portfolio
