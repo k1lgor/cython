@@ -25,6 +25,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .gitignore
+  - .venv/
   - README.md
   - LICENSE
 #   - .sass-cache/
@@ -39,6 +40,7 @@ header_pages:
   - _pages/fibonacci.md
   - _pages/primes.md
   - _pages/lcg.md
+  - _pages/matrix.md
 
 include:
   - _pages/
