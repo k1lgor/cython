@@ -4,8 +4,6 @@ title: Fibonacci
 permalink: /fibonacci/
 ---
 
-## Fibonacci Benchmark
-
 The Fibonacci benchmark focuses on comparing the execution time and performance between Python and Cython implementations for generating Fibonacci numbers. The `fibonacci_benchmark.py` script measures the execution time of Fibonacci number generation for a given input and provides insights into the speed improvements achieved by using Cython.
 
 The purpose of this benchmark is to quantify the performance gains obtained by leveraging the static typing and optimizations offered by Cython in Fibonacci number calculations.

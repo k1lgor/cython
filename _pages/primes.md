@@ -4,8 +4,6 @@ title: Primes
 permalink: /primes/
 ---
 
-## Primes Benchmark
-
 The `primes_benchmark.py` script in this repository aims to evaluate the performance of generating prime numbers using Python and Cython implementations. It generates primes and compares the execution times between the two implementations. By running the `primes_benchmark.py` script, you can assess the efficiency of algorithm and observe the performance improvements achieved by leveraging Cython's optimizations. This benchmark provides valuable insights into the impact of algorithmic choices and the benefits of utilizing Cython to optimize prime number generation.
 
 To run the Prime benchmark, follow the instructions below:
