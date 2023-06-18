@@ -28,7 +28,7 @@ jobs:
         run: pip install cython
 
       - name: Run benchmark and save output
-        run: python fibonacci_benchmark.py
+        run: python *.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
