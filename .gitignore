@@ -1,7 +1,10 @@
 _site
+_posts
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 .vscode/
-_posts
+.venv/
+venv/
+.mypy_cache/
