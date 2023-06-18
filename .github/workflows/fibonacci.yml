@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "benchmark/**"
+      - "**/fibonacci_benchmark.py"
   workflow_dispatch:
 
 jobs:
@@ -28,13 +28,15 @@ jobs:
         run: pip install cython
 
       - name: Run benchmark and save output
-        run: python benchmark/fibonacci_benchmark.py
+        run: |
+          cd benchmark
+          python fibonacci_benchmark.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "auto-generated: 🤖 add benchmark output"
-          file_pattern: "**/fibonacci_output.txt"
+          file_pattern: "fibonacci_output.txt"
 
       - uses: actions/upload-artifact@v3
         with:
