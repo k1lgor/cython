@@ -1,0 +1,16 @@
+n = 10000
+Python time: 0.014591 seconds
+Cython time: 0.012647 seconds
+Cython is 13.32% faster than Python
+n = 100000
+Python time: 0.219244 seconds
+Cython time: 0.202736 seconds
+Cython is 7.53% faster than Python
+n = 1000000
+Python time: 4.622805 seconds
+Cython time: 5.169323 seconds
+Python is 11.82% faster than Cython
+n = 2000000
+Python time: 12.595560 seconds
+Cython time: 12.856883 seconds
+Python is 2.07% faster than Cython
