@@ -3,9 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Python vs Cython Benchmark
+permalink: /
 ---
-
-# *Python vs Cython Benchmark*
 
 ## **Description**
 

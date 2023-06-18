@@ -7,7 +7,7 @@ author:
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
   The benchmark measures the performance difference between the Python and Cython implementations.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: /cython # the subpath of your site, e.g. /blog
 url: "k1lgor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
@@ -24,12 +24,23 @@ exclude:
   - node_modules/
   - Gemfile
   - Gemfile.lock
+  - .gitignore
+  - README.md
+  - LICENSE
 #   - .sass-cache/
 #   - gemfiles/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - _pages/about.md
+  - _pages/fibonacci.md
+  - _pages/primes.md
+
+include:
+  - _pages/
 
 # Theme-specific settings
 
@@ -69,10 +80,6 @@ minima:
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
 #
-header_pages:
-  - about.md
-  - fibonacci.md
-  - primes.md
 
 # Set to `true` to show excerpts on the homepage.
 #
