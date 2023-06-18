@@ -38,6 +38,7 @@ header_pages:
   - _pages/about.md
   - _pages/fibonacci.md
   - _pages/primes.md
+  - _pages/lcg.md
 
 include:
   - _pages/
