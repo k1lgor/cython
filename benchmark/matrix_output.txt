@@ -1,20 +1,20 @@
 size = 100
 Matrix Size: [100, 200, 300, 400]x[100, 200, 300, 400]
-Python Time: 0.038422 seconds
-Cython Time: 0.547921 seconds
-Python is 1326.08% faster than Cython
+Python Time: 0.000155 seconds
+Cython Time: 0.582583 seconds
+Python is 375515.01% faster than Cython
 size = 200
 Matrix Size: [100, 200, 300, 400]x[100, 200, 300, 400]
-Python Time: 0.000414 seconds
-Cython Time: 4.108168 seconds
-Python is 993057.83% faster than Cython
+Python Time: 0.001213 seconds
+Cython Time: 4.599668 seconds
+Python is 379250.03% faster than Cython
 size = 300
 Matrix Size: [100, 200, 300, 400]x[100, 200, 300, 400]
-Python Time: 0.000798 seconds
-Cython Time: 14.491180 seconds
-Python is 1815962.47% faster than Cython
+Python Time: 0.001146 seconds
+Cython Time: 16.102378 seconds
+Python is 1405592.65% faster than Cython
 size = 400
 Matrix Size: [100, 200, 300, 400]x[100, 200, 300, 400]
-Python Time: 0.001855 seconds
-Cython Time: 33.723947 seconds
-Python is 1817904.47% faster than Cython
+Python Time: 0.002044 seconds
+Cython Time: 38.731516 seconds
+Python is 1895138.77% faster than Cython
