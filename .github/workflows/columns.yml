@@ -1,0 +1,44 @@
+name: Computing Columns Benchmark
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/computing_columns.py"
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.x
+
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: pip install cython numpy
+
+      - name: Run benchmark and save output
+        run: |
+          cd benchmark
+          python computing_columns.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "auto-generated: 🤖 add benchmark output"
+          file_pattern: "**/computing_columns.txt"
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Benchmark output
+          path: ./benchmark/computing_columns.txt
