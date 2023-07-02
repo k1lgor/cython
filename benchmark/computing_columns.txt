@@ -1,0 +1,20 @@
+rows, cols = (1000, 1000)
+Python: 0.007030 seconds
+Cython: 0.007155 seconds
+Python is 1.78% faster than Cython
+rows, cols = (2000, 2000)
+Python: 0.017967 seconds
+Cython: 0.017897 seconds
+Cython is 0.39% faster than Python
+rows, cols = (3000, 3000)
+Python: 0.032008 seconds
+Cython: 0.032513 seconds
+Python is 1.58% faster than Cython
+rows, cols = (4000, 4000)
+Python: 0.072836 seconds
+Cython: 0.072697 seconds
+Cython is 0.19% faster than Python
+rows, cols = (5000, 5000)
+Python: 0.069885 seconds
+Cython: 0.069718 seconds
+Cython is 0.24% faster than Python
