@@ -1,16 +1,16 @@
 n = 1000000
-Python: 0.305237 seconds
-Cython: 0.299087 seconds
-Cython is 2.01% faster than Python
+Python: 0.244231 seconds
+Cython: 0.239607 seconds
+Cython is 1.89% faster than Python
 n = 2000000
-Python: 0.601242 seconds
-Cython: 0.594157 seconds
-Cython is 1.18% faster than Python
+Python: 0.485730 seconds
+Cython: 0.479365 seconds
+Cython is 1.31% faster than Python
 n = 3000000
-Python: 0.891681 seconds
-Cython: 0.893446 seconds
-Python is 0.20% faster than Cython
+Python: 0.718894 seconds
+Cython: 0.713043 seconds
+Cython is 0.81% faster than Python
 n = 4000000
-Python: 1.200670 seconds
-Cython: 1.203096 seconds
-Python is 0.20% faster than Cython
+Python: 0.979586 seconds
+Cython: 0.961415 seconds
+Cython is 1.85% faster than Python
